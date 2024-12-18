@@ -48,5 +48,5 @@ Technique: [T1059 - Command and Scripting Interpreter](https://attack.mitre.org/
 
 ## Screenshots
 <div>
-        <img src="/api/placeholder/800/400" alt="Placeholder for POC Screenshot" style="max-width: 100%; height: auto; display: block; margin: 20px 0;" />
+        <img src="https://github.com/idanless/Powershell_Hide/blob/main/PsGui.jpg?raw=true" alt=" Screenshot" style="max-width: 100%; height: auto; display: block; margin: 20px 0;" />
     </div>
