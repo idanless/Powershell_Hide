@@ -1,55 +1,50 @@
+# PowerShell: System.Management.Automation.dll Research
 
-    <h1>PowerShell: System.Management.Automation.dll Research</h1>
+## Overview
+This project explores the capabilities of `System.Management.Automation.dll`, a critical Windows API library developed by Microsoft for PowerShell script management and execution.
 
-    <h2>Overview</h2>
-    <p>This project explores the capabilities of <code>System.Management.Automation.dll</code>, a critical Windows API library developed by Microsoft for PowerShell script management and execution.</p>
+## Key Capabilities
 
-    <h2>Key Capabilities</h2>
-    <h3>1. Script Execution</h3>
-    <ul>
-        <li>Run PowerShell scripts as executable files</li>
-        <li>Direct command execution within scripts</li>
-        <li>Access to built-in PowerShell cmdlets</li>
-    </ul>
+### 1. Script Execution
+- Run PowerShell scripts as executable files
+- Direct command execution within scripts
+- Access to built-in PowerShell cmdlets
 
-    <h3>2. System Interaction</h3>
-    <ul>
-        <li>Process management</li>
-        <li>WMI (Windows Management Instrumentation) object retrieval</li>
-        <li>Security settings configuration</li>
-    </ul>
+### 2. System Interaction
+- Process management
+- WMI (Windows Management Instrumentation) object retrieval
+- Security settings configuration
 
-    <h3>3. .NET Framework Integration</h3>
-    <ul>
-        <li>Tight integration with .NET Framework</li>
-        <li>Cross-language scripting support</li>
-        <li>Enables use of .NET languages within PowerShell scripts</li>
-    </ul>
+### 3. .NET Framework Integration
+- Tight integration with .NET Framework
+- Cross-language scripting support
+- Enables use of .NET languages within PowerShell scripts
 
-    <h2>Technical Details</h2>
-    <p>Default Path: <code>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Management.Automation\v4.0_3.0.0.0__31bf3856ad364e35\System.Management.Automation.dll</code></p>
-    <p>Historically downloadable from NuGet Package repositories</p>
+## Technical Details
+**Default Path:**
+```
+C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Management.Automation\v4.0_3.0.0.0__31bf3856ad364e35\System.Management.Automation.dll
+```
+Historically downloadable from NuGet Package repositories
 
-    <h2>Cybersecurity Research</h2>
-    <h3>MITRE ATT&CK Mapping</h3>
-    <p>Technique: <a href="https://attack.mitre.org/techniques/T1059/">T1059 - Command and Scripting Interpreter</a></p>
+## Cybersecurity Research
 
-    <h3>Potential Evasion Techniques</h3>
-    <ul>
-        <li>Run PowerShell scripts without traditional binaries</li>
-        <li>Potential to bypass standard EDR/XDR detection mechanisms</li>
-        <li>Demonstrated effectiveness against certain security solutions</li>
-    </ul>
+### MITRE ATT&CK Mapping
+Technique: [T1059 - Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059/)
 
-    <h2>Proof of Concept</h2>
-    <h3>Python Integration</h3>
-    <ul>
-        <li>Utilize <code>clr</code> library for DLL loading</li>
-        <li>Enable cross-language scripting and automation</li>
-    </ul>
+### Potential Evasion Techniques
+- Run PowerShell scripts without traditional binaries
+- Potential to bypass standard EDR/XDR detection mechanisms
+- Demonstrated effectiveness against certain security solutions
 
-    <h3>🚨 Responsible Use Warning 🚨</h3>
-    <p>This research is strictly for educational purposes. Ensure compliance with legal and ethical standards. Do not use these techniques for malicious purposes.</p>
+## Proof of Concept
 
-    <img src="placeholder.jpg" alt="Placeholder for POC Screenshot">
+### Python Integration
+- Utilize `clr` library for DLL loading
+- Enable cross-language scripting and automation
 
+## 🚨 Responsible Use Warning 🚨
+**This research is strictly for educational purposes. Ensure compliance with legal and ethical standards. Do not use these techniques for malicious purposes.**
+
+## Screenshots
+*Placeholder for POC Screenshot*
