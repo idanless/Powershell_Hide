@@ -12,7 +12,6 @@ This project explores the capabilities of `System.Management.Automation.dll`, a 
 
 ### 2. System Interaction
 - Process management
-- WMI (Windows Management Instrumentation) object retrieval
 - Security settings configuration
 
 ### 3. .NET Framework Integration
