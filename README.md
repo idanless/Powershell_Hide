@@ -47,4 +47,6 @@ Technique: [T1059 - Command and Scripting Interpreter](https://attack.mitre.org/
 **This research is strictly for educational purposes. Ensure compliance with legal and ethical standards. Do not use these techniques for malicious purposes.**
 
 ## Screenshots
-*Placeholder for POC Screenshot*
+<div>
+        <img src="/api/placeholder/800/400" alt="Placeholder for POC Screenshot" style="max-width: 100%; height: auto; display: block; margin: 20px 0;" />
+    </div>
