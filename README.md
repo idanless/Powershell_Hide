@@ -26,7 +26,7 @@ C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Management.Automation\v4.0_3.0
 ```
 Historically downloadable from NuGet Package repositories
 
-## Cybersecurity Research
+##  Research
 
 ### MITRE ATT&CK Mapping
 Technique: [T1059 - Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059/)
