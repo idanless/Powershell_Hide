@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  
-</head>
-<body>
+
     <h1>PowerShell: System.Management.Automation.dll Research</h1>
 
     <h2>Overview</h2>
@@ -57,5 +52,4 @@
     <p>This research is strictly for educational purposes. Ensure compliance with legal and ethical standards. Do not use these techniques for malicious purposes.</p>
 
     <img src="placeholder.jpg" alt="Placeholder for POC Screenshot">
-</body>
-</html>
+
