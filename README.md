@@ -3,7 +3,10 @@
 ## Overview
 This project explores the capabilities of `System.Management.Automation.dll`, a critical Windows API library developed by Microsoft for PowerShell script management and execution.
 
-## Key Capabilities
+### Potential Evasion Techniques
+- Run PowerShell scripts without traditional binaries
+- Potential to bypass standard EDR/XDR detection mechanisms
+- Demonstrated effectiveness against certain security solutions
 
 ### 1. Script Execution
 - Run PowerShell scripts as executable files
@@ -16,7 +19,6 @@ This project explores the capabilities of `System.Management.Automation.dll`, a 
 
 ### 3. .NET Framework Integration
 - Tight integration with .NET Framework
-- Cross-language scripting support
 - Enables use of .NET languages within PowerShell scripts
 
 ## Technical Details
@@ -31,10 +33,7 @@ Historically downloadable from NuGet Package repositories
 ### MITRE ATT&CK Mapping
 Technique: [T1059 - Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059/)
 
-### Potential Evasion Techniques
-- Run PowerShell scripts without traditional binaries
-- Potential to bypass standard EDR/XDR detection mechanisms
-- Demonstrated effectiveness against certain security solutions
+
 
 ## Proof of Concept
 
