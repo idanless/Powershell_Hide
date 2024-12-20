@@ -1,4 +1,4 @@
-# PowerShell: System.Management.Automation.dll Research
+# PowerShell via System.Management.Automation.dll
 
 ## Overview
 This project explores the capabilities of `System.Management.Automation.dll`, a critical Windows API library developed by Microsoft for PowerShell script management and execution.
